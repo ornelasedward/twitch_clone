@@ -37,7 +37,7 @@ const LiveChannels6 = () => {
           user="TSM_Dyrus"
           game="Tom Clancy's Rainbow Six Siege"
         />
-        <div class="xs:hidden md:block">
+        <div className="xs:hidden md:block">
           <LiveChannelItem
             img={Live9}
             profile_img="https://static-cdn.jtvnw.net/jtv_user_pictures/d81e652c-97a1-4858-be3c-0a3a3efa4e75-profile_image-50x50.png"
@@ -46,7 +46,7 @@ const LiveChannels6 = () => {
             game="Counter Strike: Global Offensive"
           />
         </div>
-        <div class="xs:hidden 2xl:block">
+        <div className="xs:hidden 2xl:block">
           <LiveChannelItem
             img={Live1}
             profile_img="https://static-cdn.jtvnw.net/jtv_user_pictures/66db29e0-80c5-4227-99a2-d450008c85a7-profile_image-50x50.png"
@@ -55,7 +55,7 @@ const LiveChannels6 = () => {
             game="Bendy And The Ink Machine"
           />
         </div>
-        <div class="xs:hidden 3xl:block">
+        <div className="xs:hidden 3xl:block">
           <LiveChannelItem
             img={Live4}
             profile_img="https://static-cdn.jtvnw.net/jtv_user_pictures/6f5cf913-d503-4cc4-a50c-3c7c09055f52-profile_image-50x50.png"
@@ -64,7 +64,7 @@ const LiveChannels6 = () => {
             game="PUBG: BATTLEGROUNDS"
           />
         </div>
-        <div class="xs:hidden 4xl:block">
+        <div className="xs:hidden 4xl:block">
           <LiveChannelItem
             img={Live2}
             profile_img="https://static-cdn.jtvnw.net/jtv_user_pictures/118bbe20-08f1-49e3-a95f-cccdcc5451c0-profile_image-50x50.png"
@@ -74,14 +74,14 @@ const LiveChannels6 = () => {
           />
         </div>
       </div>
-      <div class="relative flex items-center">
-        <div class="flex-grow border-t border-gray-400"></div>
+      <div className="relative flex items-center">
+        <div className="flex-grow border-t border-gray-400"></div>
         <div className="rounded hover:bg-gray-700 py-1">
-          <span class="flex-shrink mx-4 text-[#BF94FF] font-bold hover:text-gray-200">
+          <span className="flex-shrink mx-4 text-[#BF94FF] font-bold hover:text-gray-200">
             Show more v
           </span>
         </div>
-        <div class="flex-grow border-t border-gray-400"></div>
+        <div className="flex-grow border-t border-gray-400"></div>
       </div>
     </div>
   );

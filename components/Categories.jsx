@@ -36,7 +36,7 @@ const Categories = () => {
           tag1="Shooter"
           tag2="Action"
         />
-        <div class="xs:hidden lg:block">
+        <div className="xs:hidden lg:block">
           <CategoriesItem
             img="https://static-cdn.jtvnw.net/ttv-boxart/511224-188x250.jpg"
             title="Apex Legends"
@@ -45,7 +45,7 @@ const Categories = () => {
             tag2="Shooter"
           />
         </div>
-        <div class="xs:hidden lg:block">
+        <div className="xs:hidden lg:block">
           <CategoriesItem
             img="https://static-cdn.jtvnw.net/ttv-boxart/512710-188x250.jpg"
             title="Call Duty: War"
@@ -54,7 +54,7 @@ const Categories = () => {
             tag2="Shooter"
           />
         </div>
-        <div class="xs:hidden 2xl:block">
+        <div className="xs:hidden 2xl:block">
           <CategoriesItem
             img="https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-188x250.jpg"
             title="GTA: V"
@@ -63,7 +63,7 @@ const Categories = () => {
             tag2="Action"
           />
         </div>
-        <div class="xs:hidden 2xl:block">
+        <div className="xs:hidden 2xl:block">
           <CategoriesItem
             img="https://static-cdn.jtvnw.net/ttv-boxart/1614555304-188x250.jpg"
             title="Call of Duty"
@@ -72,7 +72,7 @@ const Categories = () => {
             tag2="Shooter"
           />
         </div>
-        <div class="xs:hidden 2xl:block">
+        <div className="xs:hidden 2xl:block">
           <CategoriesItem
             img="https://static-cdn.jtvnw.net/ttv-boxart/491487-285x380.jpg"
             title="Dead by Daylight"
@@ -81,7 +81,7 @@ const Categories = () => {
             tag2="Horror"
           />
         </div>
-        <div class="xs:hidden 2xl:block">
+        <div className="xs:hidden 2xl:block">
           <CategoriesItem
             img="https://static-cdn.jtvnw.net/ttv-boxart/21779-285x380.jpg"
             title="League of Legends"
