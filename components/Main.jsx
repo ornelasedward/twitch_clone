@@ -6,9 +6,9 @@ import Categories from "./Categories";
 import LiveChannels2 from "./LiveChannels2";
 import LiveChannels3 from "./LiveChannels3";
 import LiveChannels4 from "./LiveChannels4";
-import LiveChannels5 from "./LiveChannels5";
 import LiveChannels6 from "./LiveChannels6";
 import LiveChannels7 from "./LiveChannels7";
+import LiveChannels5 from "./LIveChannels5";
 
 const Main = () => {
   return (
