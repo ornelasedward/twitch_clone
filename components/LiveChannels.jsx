@@ -11,7 +11,7 @@ const LiveChannels = (tag1, tag2) => {
   return (
     <div id="live" className="p-2 md:p-8">
       <h2 className="text-xl font-bold px-2">
-        <span>Live Channels</span> we think you'll like
+        <span>Live Channels</span> we think youll like
       </h2>
       {/* Container */}
       <div className="grid xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 4xl:grid-cols-6 gap-4 py-2">

@@ -18,14 +18,14 @@ const LiveChannels2 = () => {
     <div id="live" className="p-2 md:p-8">
       <h2 className="text-xl font-bold px-2">
         Recommended <span className="text-[#9147ff]">CSGO Channels</span> we
-        think you'll like
+        think youll like
       </h2>
       {/* Container */}
       <div className="grid xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 4xl:grid-cols-6 gap-4 py-2">
         <LiveChannelItem
           img={Live7}
           profile_img="https://static-cdn.jtvnw.net/jtv_user_pictures/1c14619b-d930-48d4-bd17-91784c8bde0f-profile_image-70x70.jpeg"
-          title="LET'S BUILD STREAM / MINECRAFT"
+          title="LETS BUILD STREAM / MINECRAFT"
           user="WonderBoIIstreams"
           game="Minecraft"
         />
@@ -35,13 +35,13 @@ const LiveChannels2 = () => {
           profile_img="https://static-cdn.jtvnw.net/jtv_user_pictures/f6888517-2345-4e91-abde-9b7940426410-profile_image-70x70.png"
           title="WE HIT THOSE!!"
           user="TSM_Dyrus"
-          game="Tom Clancy's Rainbow Six Siege"
+          game="Tom Clancys Rainbow Six Siege"
         />
         <div className="xs:hidden md:block">
           <LiveChannelItem
             img={Live9}
             profile_img="https://static-cdn.jtvnw.net/jtv_user_pictures/d81e652c-97a1-4858-be3c-0a3a3efa4e75-profile_image-50x50.png"
-            title="LIVE: The World's Most Epic Gameplay"
+            title="LIVE: The Worlds Most Epic Gameplay"
             user="FragDelta"
             game="Counter Strike: Global Offensive"
           />
@@ -75,9 +75,9 @@ const LiveChannels2 = () => {
         </div>
       </div>
       <div className="relative flex items-center">
-        <div class="flex-grow border-t border-gray-400"></div>
+        <div className="flex-grow border-t border-gray-400"></div>
         <div className="rounded hover:bg-gray-700 py-1">
-          <span class="flex-shrink mx-4 text-[#BF94FF] font-bold hover:text-gray-200">
+          <span className="flex-shrink mx-4 text-[#BF94FF] font-bold hover:text-gray-200">
             Show more v
           </span>
         </div>
